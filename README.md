@@ -31,6 +31,7 @@ Publish the website in the LocalHost.
 
 ## PROGRAM :
 ```html
+index.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,7 +39,6 @@ Publish the website in the LocalHost.
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CAMU Schedule</title>
 
-    <!-- Step 4: Bootstrap CSS CDN -->
     <link rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
@@ -55,9 +55,7 @@ Publish the website in the LocalHost.
 </head>
 <body>
 
-    <!-- jQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <!-- Bootstrap JS CDN -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>
@@ -70,7 +68,6 @@ timetable.html
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CAMU Schedule - Saveetha Engineering College</title>
 
-    <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
@@ -109,7 +106,6 @@ timetable.html
         .date-nav a { color: #003366; text-decoration: none; margin: 0 15px; font-size: 22px; }
         .date-nav a:hover { color: #0066cc; }
 
-        /* Step 5: Bootstrap table classes applied */
         .table-schedule {
             background: white;
             border-radius: 8px;
@@ -145,7 +141,6 @@ timetable.html
 </head>
 <body>
 
-<!-- Step 5: Navigation Bar using Bootstrap -->
 <nav class="navbar navbar-custom">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -171,10 +166,8 @@ timetable.html
     </div>
 </nav>
 
-<!-- Main Content -->
 <div class="container" style="margin-top: 30px;">
 
-    <!-- Profile Card -->
     <div class="profile-card">
         <img src="024.jpg.jpeg" alt="Student Photo">
         <div>
@@ -184,7 +177,6 @@ timetable.html
         </div>
     </div>
 
-    <!-- Timetable Heading -->
     <div class="panel panel-default">
         <div class="panel-heading" style="background:#003366; color:white;">
             <h3 class="panel-title" style="font-size:20px;">
@@ -198,14 +190,12 @@ timetable.html
         </div>
 
         <div class="panel-body">
-            <!-- Date Navigation -->
             <div class="date-nav">
                 <a href="#">&#8249;</a>
                 29 May 2026
                 <a href="#">&#8250;</a>
             </div>
 
-            <!-- Step 6: Full Schedule Table with Bootstrap classes -->
             <div class="table-responsive table-schedule">
                 <table class="table table-bordered table-hover table-striped">
                     <thead>
@@ -269,14 +259,12 @@ timetable.html
                         </tr>
                     </tbody>
                 </table>
-            </div><!-- end table-responsive -->
+            </div>
 
-        </div><!-- end panel-body -->
-    </div><!-- end panel -->
+        </div>
+    </div>
+</div>
 
-</div><!-- end container -->
-
-<!-- Step 7: Footer with Copyright -->
 <footer>
     <p>&copy; 2025-2026 Saveetha Engineering College (Autonomous). All Rights Reserved.</p>
     <p style="font-size:12px; color:#cce0ff;">
@@ -284,9 +272,7 @@ timetable.html
     </p>
 </footer>
 
-<!-- jQuery CDN -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<!-- Bootstrap JS CDN -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 </body>
